@@ -1,0 +1,467 @@
+@import url('https://fonts.cdnfonts.com/css/apercu');
+                             
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  background-color: #FFF0E5;
+}
+header {
+  display: flex;
+  width: 85%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+.nav-link i {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 5px;
+  color: #29292d;
+}
+.logo-container, .nav-links, .log, .search {
+  display: flex;
+}
+.logo-container {
+  flex: 1;
+}
+.logo img {
+  width: 140px;
+  height: 25px;
+}
+.logo {
+  margin-left: 10px;
+}
+nav {
+  flex: 9;
+  margin-right: 50px;
+}
+.nav-links {
+  justify-content: flex-start;
+  list-style: none;
+  margin-right: 20%;
+}
+.nav-link {
+  font-weight: 400;
+  font-family: "Apercu";
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 7px;
+}
+.nav-link:hover {
+  color: blueviolet;
+}
+.end {
+  display: flex;
+  justify-content: stretch;
+}
+.search {
+  flex: 1;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+.search img {
+  width: 35px;
+  height: 25px;
+}
+.search img:hover {
+  background-color: #ebe9f0;
+}
+.log {
+  flex: 2;
+  font-family: "Apercu";
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+.log:hover {
+  color: blueviolet;
+  background-color: #ebe9f0;
+}
+.present {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  min-height: 50vh;
+  padding-top: 90px;
+  align-items: center;
+}
+.cover img {
+  height: 58vh;
+  border: 1px solid black;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cover {
+  flex: 1;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+.introduction {
+  flex: 1;
+  padding-left: 80px;
+}
+.intro-text h1 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+form {
+  min-height: 45vh;
+  width: 200px;
+  padding: 20px;
+}
+.form p {
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #414145;
+  display: inline-block;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+}
+button {
+  width: 400px;
+  height: 40px;
+  color: white;
+  background-color: #3306d6;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  margin-bottom: 40px;
+}
+button:hover {
+  background-color: #4b25d2;
+}
+.social p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+.social {
+  padding-bottom: 100px;
+  margin-left: 5px;
+}
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.social-item img {
+  height: 55px;
+  width: 65px;
+  margin: 0 3px;
+  border: 1px solid black;
+  background-color: white;
+}
+.social-item img:hover {
+  background-color: #ebe9f0;
+}
+.window {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #FFD300;
+}
+.window-container {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.window-text {
+  width: 550px;
+  order: -1;
+}
+.window-img {
+  height: auto;
+  width: 420px;
+}
+.window-text h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+.window-text h3 {
+  font-size: 44px;
+  font-weight: 700;
+}
+.window-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+.window-text button {
+  background-color: #3306d6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  width: 135px;
+  height: 40px;
+  margin-top: 20px;
+}
+.window-text button:hover {
+  background-color: #4b25d2;
+}
+.woman {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #3A10E5;
+}
+.woman-container {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.woman-text {
+  width: 550px;
+  color: white;
+  margin-left: 220px;
+}
+.woman img {
+  height: auto;
+  width: 450px;
+}
+.woman-text h4 {
+  font-size: 44px;
+  font-weight: 700;
+}
+.woman-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+.woman-text button {
+  background-color: #FFD300;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  transition: .3s ease filter;
+}
+.woman-text button:hover {
+  filter: grayscale(0.5);
+}
+
+footer {
+  background-color: #FFF0E5;
+  padding: 20px 50px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.tag .social {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.code {
+  width: 125px;
+  height: 60px;
+  margin-top: 190px;
+}
+.tag h1 {
+   color: black;
+   margin: 25px 0 35px 0;
+   font-size: 16px;
+   font-weight: 700;
+}
+.tag h2 {
+  color: black;
+   margin: 25px 0 35px 0;
+   font-size: 16px;
+   font-weight: 700;
+}
+.tag p {
+  text-align: left;
+  color: #29292d;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.3s;
+  margin-top: 8px;
+}
+.tag p:hover {
+  color: blueviolet;
+}
+.tag ul {
+  list-style: none;
+  color: black;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.tag ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 5px;
+}
+.tag ul li:hover {
+  color: blueviolet;
+}
+.apple  {
+  width: 120px;
+  height: 40px;
+}
+.google {
+  width: 140px;
+  height: 40px;
+}
+hr {
+  border-top: 1px solid black;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.last p {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.last h3 a:hover {
+  color: blueviolet;
+}
+.last h3 {
+  font-size: 14px;
+  font-weight: 400;
+  ;
+}
+.last h3 a {
+  text-decoration: none;
+  color: black
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+
+
+/*  I tried so hard to make it responsive,
+ but no matter what i tried, it didn't word ! 
+ I think I have major issues with this part and
+  I need to learn more !  */
+/* Media Query*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   header {
+    margin: auto;
+    width: 80%;
+   }
+  .logo img {
+    width: 110px;
+    height: 20px;
+  }
+  .log {
+    font-size: 12px;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .present {
+    flex-direction: column;
+    flex-basis: 12%;
+  }
+  .introduction {
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .cover {
+    margin-right: 90px;
+    height: 15%;
+    width: 30%;
+  }
+  .intro-text {
+    text-align: center;
+    margin-right: 70px
+    }
+  .intro-text h1 {
+    font-size: 23px;
+    margin-right: 10px;
+  }
+  form {
+    width: 80px;
+    padding: 30px;
+    margin-left: 20px;
+  }
+  .term {
+    text-align: right;
+  }
+  
+  .woman-container {
+    flex-direction: column;
+  }
+  .window-img {
+    height: 120px;
+    width: 150px;
+  }
+  .woman-text {
+    margin-top: 15px;
+  }
+  .social {
+    margin-left: 90px;
+  }
+  .social p {
+    text-align: left;
+    margin-left: 90px;
+  }
+  .main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+}
+  
+
+@media screen and (max-device-width: 480px) {
+ 
+  .main {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+
+}
+  
